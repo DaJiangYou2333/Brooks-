@@ -139,6 +139,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 4.5
   jumpForce: 7
+  wallJumpForce: 10
+  wallCheckDistance: 0.5
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!95 &8835163342460573306
 Animator:
   serializedVersion: 5
